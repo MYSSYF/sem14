@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaLista">
+
+    <EditText
+        android:id="@+id/EXP"
+        android:layout_width="297dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TAREA" />
+
+    <EditText
+        android:id="@+id/TAREA"
+        android:layout_width="299dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Nombre de la Trarea"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Button
+        android:id="@+id/AGRE"
+        android:layout_width="120dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:text="Agregar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EXP" />
+
+    <Button
+        android:id="@+id/ACTUALIZAR"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="ACTUALIZAR"
+        app:layout_constraintStart_toEndOf="@+id/AGRE"
+        app:layout_constraintTop_toBottomOf="@+id/EXP" />
+
+    <ListView
+        android:id="@+id/LIST"
+        android:layout_width="425dp"
+        android:layout_height="423dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AGRE" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

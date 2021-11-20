@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252323528964",
+    "firebase_url": "https://listas-cel-default-rtdb.firebaseio.com",
+    "project_id": "listas-cel",
+    "storage_bucket": "listas-cel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252323528964:android:de4120399500cc27679051",
+        "android_client_info": {
+          "package_name": "com.example.sem14"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252323528964-2qn4rd6svmbt6jd2n4e068e14oh9tfjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxYJ2Oyx6vggLGkOsNE-UPE_xy0eVZoXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252323528964-2qn4rd6svmbt6jd2n4e068e14oh9tfjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
